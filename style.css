@@ -3,6 +3,16 @@
     font-family:'ShantellSans-Italic' ;
     src: url('font/Shantell_Sans/ShantellSans-Italic-VariableFont_BNCE\,INFM\,SPAC\,wght.ttf') format('truetype'); 
 }
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root{
+
+    --font1:Verdana, Geneva, Tahoma, sans-serif;
+    --font2:'Passion one', cursive;
+    --font3:'Sriracha', cursive;
+    --font4:'ShantellSans-Italic', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
 
 body{
     width: 100%;
@@ -12,7 +22,8 @@ body{
     font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    font-size: 4vh;
+    font-family: var(--font1);
+    
     
 }
 
@@ -23,12 +34,15 @@ header{
     padding-top: 50px;
     background-color: black;
     text-align: center;
+    
 }
 h1{
+    font-family: var(--font2);
     font-weight: 700;
     word-wrap: none;
     text-align: center;
     text-transform: uppercase;
+    font-size: 6vw;
 }
 h2{ 
     font-weight: 500;
@@ -50,18 +64,20 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
+    font-family: var(--font4);
 }
 
 
 p{
     font-weight: 700;
-    font-family:'ShantellSans-Italic', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
     color: black;
+    font-size: 2.5vw;
 }
 
 .imagem-paralax{
     width: 100%;
-    height: 100vh;
+    height: auto;
     margin: 0px;
     position: relative;
     background-color: black;
@@ -82,7 +98,7 @@ p{
 }
 .imagem-paralax-2{
     width: 100%;
-    height: 100vh !important;
+    height: auto;
     margin: 0px;
     overflow: hidden;
     background-color: black;
