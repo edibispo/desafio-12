@@ -4,119 +4,119 @@
     src: url('font/Shantell_Sans/ShantellSans-Italic-VariableFont_BNCE\,INFM\,SPAC\,wght.ttf') format('truetype'); 
 }
 
-*{margin: 0px;
-  padding: 0px;  
-}
 body{
-    /*
-    height: 1000px;
-    background-image: url('imagens/background001.jpg');
-    background-repeat:no-repeat;
-    background-position: top left;
-    background-size: cover;
-    background-attachment: fixed;
-    */
-
-}
-div#img1{
-    background-color: black;
-    background-image: url('imagens/background001.jpg');
-    background-position: left bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:fixed;
-    height: 2000px;
-    width:auto;
-    display: block;
-    margin: auto;
-}
-
-header{
-  
-    width: auto;
-    height: 25vh;
-    margin:0px;
-    text-align: center;
-    background-color:black ;
-    color: white;
-    overflow: hidden;
- 
-    padding: 15px 10px 20px 15px;
-}
-h1{ min-width: 50px;
-   
-    height:auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: auto;
-    padding: 10px 5px 5px 5px;
-    text-align: center;
-    text-wrap: nowrap;
-    overflow: hidden;
-    font-style: normal;
-    font-weight: 100;
-    font-size:12vh;
-    display: block;
-
-}
-h2 > a {
-    width: 100px;
-    height: auto;
-    text-decoration: none;
-    color: white;
-    font-size: medium;
-    padding: 0px 40px 10px 40px;
-    margin: auto;
-    overflow: hidden;
-
-}
-p{  width: 230px;
-    height: auto;
-    margin: 1px 40px 40px 1px;
-    padding: 2px 30px 40px 20px;
-    display:block;
-    font-style: normal;
-    font-family: 'ShantellSans-Italic',Arial, Helvetica, sans-serif;
-    line-height: 40px;
-    font-weight: bold;
-    font-size: 1em;
-    
-}
-article{
+    width: 100%;
     margin: 0px;
     padding: 0px;
+    color: #242424;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size: 4vh;
+    
+}
+
+
+header{
+    width: 100%;
+    color: white;
+    padding-top: 50px;
+    background-color: black;
+    text-align: center;
+}
+h1{
+    font-weight: 700;
+    word-wrap: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{ 
+    font-weight: 500;
+    font-size: medium;
+    padding-bottom: 50px;
+    
+}
+
+main{
+    margin: 0px auto;
     display: block;
-    font-size: 3vh;
    
 }
 
-div#c1{
-    width: auto;
-    height:auto;
-    margin: 0px;
-    padding: 30px 190px 40px 10px ;
-    display: block;
-    background-color: antiquewhite;
-    border: 1px solid black;
-  
-   
-}
-div#c2{
-    color: antiquewhite;
-    background-color: transparent;
-    width: auto;
+section{
+    width: 100%;
     height: auto;
-    margin: 50px 50px 50px 20px;
-    padding: 30px 190px 40px 10px ;
-    border: 2px;
-    border-color: rgba(63, 55, 44, 0.285);
-    font-family: 'ShantellSans-Italic',Arial, Helvetica, sans-serif;
-    font-size: 1em;
-
+    background-color:white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
 }
 
-div#c2 > p{
-    background-color: rgba(250, 235, 215, 0.098);
-    border: 1px;
+
+p{
+    font-weight: 700;
+    font-family:'ShantellSans-Italic', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: black;
+}
+
+.imagem-paralax{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    position: relative;
+    background-color: black;
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0px 0px;
+    background-attachment: fixed;
+}
+.imagem-paralax  > p {
+    width: 450px;
+    color: white;
+    background-color: rgba(37, 37, 37, 0.349);
     border-radius: 3px;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.683);
+    padding: 10px 10px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.53);
+
+}
+.imagem-paralax-2{
+    width: 100%;
+    height: 100vh !important;
+    margin: 0px;
+    overflow: hidden;
+    background-color: black;
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0px 0px;
+    background-attachment: fixed;
+
+}
+.imagem-paralax-2  > p {
+    width: 450px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 3px;
+    padding: 10px 10px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.53);
+}
+footer{
+    background-color: black;
+    font-size: medium;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+a:hover {
+   color: rgb(166, 147, 166);
+    font-size: larger;
+    font-weight: bolder;
+
 }
